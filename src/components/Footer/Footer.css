@@ -1,0 +1,73 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.footerRights {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.footerRightsButton {
+  width: 30%;
+  justify-content: center;
+}
+
+.footerRights > h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 3px 3px 3px 3px;
+}
+
+.footerRightsButton > button {
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+  background-color: #00dfa2;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footerRightsButton > a {
+  margin: 5px;
+  padding: 5px;
+}
+
+.footerRights > button:hover {
+  color: black;
+  background-color: white;
+}
+
+.footerInfo {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.footerInfo > h5 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contactInfo {
+  justify-content: left;
+}
+
+.contactInfo > p {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.2rem;
+  padding-right: 20px;
+}
+
+.contactInfo {
+  justify-content: right;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.socialIcons > a {
+  padding-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
