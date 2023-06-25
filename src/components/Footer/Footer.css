@@ -1,0 +1,40 @@
+.footer {
+    background-color:transparent;
+    padding: 16px;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    color: #ffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #333;
+}
