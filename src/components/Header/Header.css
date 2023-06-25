@@ -1,0 +1,26 @@
+.header {
+    background-color: transparent;
+    /* Replace with desired background color */
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.logo {
+    /* Styles for your logo or text here */
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.menu li {
+    cursor: pointer;
+}

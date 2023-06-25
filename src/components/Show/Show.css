@@ -1,0 +1,66 @@
+.inputBox {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 0.25rem solid rgba(255, 255, 255, 0.18);
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    width: 30%;
+}
+.input1::placeholder,inputBox::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.input1{
+    background-color: transparent;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 0.25rem solid rgba(255, 255, 255, .18);
+}
+.input1:focus {
+    color: #ffffff;
+    border-color: rgb(188, 184, 214);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 1rem 0.5 rem;
+    margin-top: 3rem;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 0.25rem solid rgba(255, 255, 255, .18);
+    transition: background-color 0.3s ease;
+}
+
+
+.input1-hover,transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/* .input1,.transparent-button{
+    margin-top: 0.4rem;
+} */
